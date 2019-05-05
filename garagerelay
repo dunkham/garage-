@@ -1,0 +1,31 @@
+#! /bin/bash
+# /etc/init.d/garagerelay
+### BEGIN INIT INFO
+# Provides:          garagerelay
+# Required-Start:
+# Required-Stop:
+# Default-Start:     4
+# Default-Stop:      
+# Short-Description: Runs the gpio script to enable port 7
+# Description:       Enable service provided by daemon.
+### END INIT INFO
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+start)
+echo "Starting Relay"
+# Turn 7 on which keeps relay off
+/usr/bin/gpio write 7 0
+#Start Gpio
+/usr/bin/gpio mode 7 in
+;;
+stop)
+echo "Stopping gpio"
+;;
+*)
+echo "Usage: /etc/init.d/garagerelay {start|stop}"
+exit 1
+;;
+esac
+
+exit 0
