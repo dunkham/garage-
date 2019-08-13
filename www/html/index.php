@@ -20,8 +20,14 @@
 
 	</head>
 	<body>
+		
+			<img src='image1.jpg'>
+		
+	
 		<div class='awrap'>
-      <a href='/?trigger=1'></a>
+      		<a href='/?trigger=1'></a>
 		</div>
+
+		
 	</body>
 </html>
