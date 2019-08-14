@@ -20,14 +20,11 @@
 
 	</head>
 	<body>
-		
-			<img src='image1.jpg'>
-		
-	
+		<img class='img-wrapper' src='image1.jpg'>
 		<div class='awrap'>
       		<a href='/?trigger=1'></a>
 		</div>
 
-		
+
 	</body>
 </html>
