@@ -1,8 +1,9 @@
-tml,body {
+html,body {
 	margin:0px;
 	padding:0px;
 	background:#231F1F;
 }
+
 div.awrap{
 	position:absolute;
 	height:400px;
@@ -12,11 +13,11 @@ div.awrap{
 	text-align:center;
 }
 
-img {
+.img-wrapper {
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
 }
 
 
