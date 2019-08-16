@@ -16,11 +16,13 @@
 		<link rel="stylesheet" href="/css/style.css" type="text/css">
 		<meta name="apple-mobile-web-app-capable" content="yes">	
 		<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>    
-		<script type="text/javascript" src="/js/script.js"></script>    
+		<script type="text/javascript" src="/js/script.js"></script>  
+		<script type="text/javascript" scr="/js/image.js"></script>
 
 	</head>
 	<body>
-		<img class='img-wrapper' src='image1.jpg'>
+		<img class='img-wrapper' src='image1.jpg' id='myImage'/>
+		
 		<div class='awrap'>
       		<a href='/?trigger=1'></a>
 		</div>
